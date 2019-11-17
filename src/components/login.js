@@ -27,7 +27,7 @@ export default class Login extends Component{
 				this.setState({'showError': false})
 				if(result.success){
 					window.sessionStorage.setItem('token', result.token);
-					window.sessionStorage.setItem('userId', result.id);
+					window.sessionStorage.setItem('userId', result.username);
 					properties.userDetails = result.userDetails;
 					browserHistory.push('/chooseSeat');
 				}else{

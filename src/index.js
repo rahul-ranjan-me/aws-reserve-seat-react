@@ -14,6 +14,8 @@ import Register from './components/register';
 import Profile from './components/profile';
 import BookedSeats from './components/bookedSeats';
 
+import './index.css'
+
 const store = createStore(allReducers);
 
 ReactDOM.render(
