@@ -112,7 +112,7 @@ export default class Profile extends Component{
 				<div className="loginBox clearfix">
 					<h3>Hello, {this.state.userDetails.firstName} {this.state.userDetails.lastName}</h3>
 					{this.state.userDetails.username ?
-						<img src={properties.serverHost+this.state.userDetails.username+'.jpg'} alt={this.state.userDetails.firstName} className="profilePicture" />
+						<img src={this.state.userDetails.profilePic} alt={this.state.userDetails.firstName} className="profilePicture" />
 						:null
 					}
 					{this.state.showError ?
