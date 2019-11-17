@@ -37,6 +37,8 @@
     ]
   },
   "devDependencies": {
+    "express": "^4.17.1",
+    "express-history-api-fallback": "^2.2.1",
     "jquery": "^3.4.1"
   }
 }
